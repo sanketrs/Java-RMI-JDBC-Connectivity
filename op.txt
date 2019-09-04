@@ -1,0 +1,20 @@
+C:\Documents and Settings\Sonia>cd g:\rmijdbc
+
+C:\Documents and Settings\Sonia>g:
+
+G:\rmijdbc>javac selectimpl.java
+Note: selectimpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+G:\rmijdbc>javac selectint.java
+
+G:\rmijdbc>javac selectserver.java
+
+G:\rmijdbc>javac selectclient.java
+
+G:\rmijdbc>rmic selectimpl
+
+G:\rmijdbc>start rmiregistry
+
+G:\rmijdbc>java selectserver
+server is readyyyyy
